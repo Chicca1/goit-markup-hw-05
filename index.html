@@ -49,7 +49,7 @@
     
      <div class="container hero-section "><h1 class="hero-text"> Effective Solutions<br>for Your Business</h1>
    
-      <button class="modal-button button" type="button">Order Service</button></div>
+      <button data-modal-open class="modal-button button"  type="button">Order Service</button></div>
    
 
   </section>
@@ -467,6 +467,17 @@
     
 </footer>
 
-    
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal-window" >
+        <button data-modal-close  type="button" class="modal-close-button" >
+            <svg class="modal-close-icon"> 
+                <use href="./images/icons-optimized.svg#icon-close-black-cross" width="8px" height="8px"></use>
+            </svg>
+        </button>
+    </div>
+
+</div>
+<script src="./js/modal.js"></script>
+
 </body>
 </html>
