@@ -818,6 +818,12 @@ padding-bottom: 8px;
 padding-top: 8px;
 display: flex;
 justify-items: center;
+fill: #000000;
+}
+
+.modal-close-icon:hover,
+.modal-close-icon:active {
+    fill: #FFFFFF;
 }
 
 
