@@ -108,6 +108,11 @@ text-transform: uppercase;
 color: var(--basic-text-colour);
 }
 
+
+
+
+
+
 /*Header*/
 .page-header-container {
 
@@ -199,7 +204,7 @@ display: flex;
 color: #434455;
 transition-property: color;
 transition-duration: var(--animation-duration);
-transition-timing-function: var(var(--animation-timing-function));}
+transition-timing-function: (var(--animation-timing-function));}
 
 
 
@@ -450,7 +455,7 @@ border: 1px solid #8E8F99;
 color: #8E8F99;
 border-radius: 4px;
 
-transition-property: background-color ,border-color;
+transition-property: border-color;
 transition-duration: var(--animation-duration);
 transition-timing-function: (var(--animation-timing-function));}
 
@@ -458,7 +463,7 @@ transition-timing-function: (var(--animation-timing-function));}
 .customer-link:hover,
 .customer-link:focus  {
 border-color: var(--colour-change);
-color: var(--colour-change);
+
 
 }
 
